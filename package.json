@@ -3,5 +3,22 @@
     "gulp": "^4.0.2",
     "gulp-gh-pages": "^0.5.4",
     "gulp-load-plugins": "^2.0.7"
-  }
+  },
+  "name": "manual_linux",
+  "description": "Manual com o conhecimento inicial de Linux necessário para executar o pipeline DevOps proposto no meu Trabalho de Conclusão de Curso",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeovanneAtanazio/manual_linux.git"
+  },
+  "author": "Geovanne Atanazio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GeovanneAtanazio/manual_linux/issues"
+  },
+  "homepage": "https://github.com/GeovanneAtanazio/manual_linux#readme"
 }

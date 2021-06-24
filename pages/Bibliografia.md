@@ -1,6 +1,6 @@
 # Referências bibliográficas
 
-Essa seção apresenta o conjunto das fontes efetivamente utilizadas na construção deste manual. Cada referência dessa bibliografia deve está organizada pelo tópico que a mesma ajudou a construir para facilitar uma busca mais aprofundada do conteúdo.
+Esta seção apresenta o conjunto das fontes efetivamente utilizadas na construção deste manual. Cada referência dessa bibliografia está organizada pelo tópico que a mesma ajudou a construir — para facilitar uma busca mais aprofundada do conteúdo.
 
 ## O que é GNU/Linux?
 

@@ -1,5 +1,7 @@
 {
   "root": "./pages",
+  "title": "Manual GNU/Linux",
+  "description": "Manual com o conhecimento institucional de GNU/Linux", 
   "language": "pt",
   "structure": {
     "readme": "Apresentacao.md",
@@ -7,6 +9,10 @@
   },
   "plugins":["-sharing","github","sharing-plus","back-to-top-button"],
   "pluginsConfig": {
+    "fontsettings": {
+      "theme": "sepia"
+
+    },
     "sharing": {
       "douban":false,
       "facebook":false,

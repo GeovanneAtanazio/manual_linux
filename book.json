@@ -4,5 +4,10 @@
     "readme": "Apresentacao.md",
     "summary": "SUMMARY.md"
   },
-  "plugins":["-sharing"]
+  "plugins":["-sharing","github"],
+  "pluginsConfig": {
+    "github":{
+      "url": "https://github.com/GeovanneAtanazio/manual_linux/"
+    }
+  }
 }

@@ -10,7 +10,7 @@
   "plugins":["-sharing","github","sharing-plus","back-to-top-button","download-pdf-link"],
   "pluginsConfig": {
     "download-pdf-link": {
-      "base": "https://github.com/GeovanneAtanazio/manual_linux/blob/gh-pages/Manual_GNU_Linux.pdf"
+      "base": "https://github.com/GeovanneAtanazio/manual_linux/blob/main/Manual_GNU_Linux.pdf"
       },
     "fontsettings": {
       "theme": "sepia"

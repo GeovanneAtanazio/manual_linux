@@ -4,9 +4,6 @@ gitbook install && gitbook build
 # checkout to the gh-pages branch
 git checkout gh-pages
 
-# generate pdf file
-gitbook pdf ./ ./Manual_GNU_Linux.pdf
-
 # pull the latest updates
 git pull origin gh-pages --rebase
 

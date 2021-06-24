@@ -4,7 +4,7 @@
     "readme": "Apresentacao.md",
     "summary": "SUMMARY.md"
   },
-  "plugins":["-sharing","github","sharing-plus"],
+  "plugins":["-sharing","github","sharing-plus","back-to-top-button"],
   "pluginsConfig": {
     "sharing": {
       "douban":false,

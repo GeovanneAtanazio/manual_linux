@@ -9,7 +9,7 @@ node_modules
 
 # Book build output
 .publish
-#_book
+_book
 
 # eBook build output
 *.epub

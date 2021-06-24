@@ -8,6 +8,6 @@ gulp.task('publish', () => {
   return gulp.src('./_book/**/*')
     .pipe($.ghPages({
       origin: 'origin',
-      branch: 'main'
+      branch: 'gh-pages'
     }));
 });

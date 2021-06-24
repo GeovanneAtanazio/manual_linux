@@ -1,5 +1,6 @@
 {
   "root": "./pages",
+  "language": "pt",
   "structure": {
     "readme": "Apresentacao.md",
     "summary": "SUMMARY.md"

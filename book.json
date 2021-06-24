@@ -4,8 +4,19 @@
     "readme": "Apresentacao.md",
     "summary": "SUMMARY.md"
   },
-  "plugins":["-sharing","github"],
+  "plugins":["-sharing","github","sharing-plus"],
   "pluginsConfig": {
+    "sharing": {
+      "douban":false,
+      "facebook":false,
+      "google":false,
+      "line":false,
+      "qq":false,
+      "qzone":false,
+      "weibo":false,
+      "whatsapp":false,
+      "all": ["twitter","linkedin","whatsapp","facebook","messenger"]
+    },
     "github":{
       "url": "https://github.com/GeovanneAtanazio/manual_linux/"
     }

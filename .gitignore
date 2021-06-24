@@ -10,8 +10,3 @@ node_modules
 # Book build output
 .publish
 _book
-
-# eBook build output
-*.epub
-*.mobi
-*.pdf 

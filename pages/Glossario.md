@@ -13,11 +13,11 @@ Esta seção apresenta um glossário com as palavras-chaves presentes neste manu
 |*Case Sensitive*|Capacidade de diferenciar letras minúsculas e maiúsculas.|
 |*Script*|Texto contendo uma série de instruções sequenciais que podem ser executados por um interpretador.|
 |Compilação|É, basicamente, a conversão de todas as linhas de um programa escrito em linguagem humana para uma linguagem de máquina.|
-|*Filesystem Hierarchy Standard (FHS)*|Padrão para sistema de arquivos hierárquico|
+|*Filesystem Hierarchy Standard (FHS)*|Padrão para sistema de arquivos hierárquico.|
 |*Pendrives*|Dispositivos portáteis de armazenamento de arquivos.|
 |*Compact Disc* (*CDs*)|Disco usado para armazenamento de arquivos.|
-|*Digital Versatile Disc* (*DVDs*)|Evolução do CD para armazenamento de dados em discos.|
-|*Blu-Ray*|Padrão de armazenamento de dados em disco superior ao DVD.|
+|*Digital Versatile Disc* (*DVDs*)|Evolução do *CD* para armazenamento de dados em discos.|
+|*Blu-Ray*|Padrão de armazenamento de dados em disco superior ao *DVD*.|
 |*Hardware*|Parte física do computador.|
 |*Root*|Credencial concedida ao usuário que tem plena liberdade de acesso a qualquer arquivo ou diretório dos sistemas GNU/Linux. Esse termo, as vezes, é utilizado também para se referir ao diretório `/` do GNU/Linux.|
 |*Web Servers*|Programas responsáveis por fazer a comunicação através de protocolos entre o computador que hospeda uma aplicação e o computador que acessa a aplicação.|

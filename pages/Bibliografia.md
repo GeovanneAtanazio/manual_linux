@@ -1,4 +1,3 @@
-
 # Referências bibliográficas
 
 Esta seção apresenta o conjunto das fontes efetivamente utilizadas na construção deste manual. Cada referência dessa bibliografia está organizada pelo tópico que a mesma ajudou a construir — para facilitar uma busca mais aprofundada do conteúdo.
@@ -15,6 +14,7 @@ Esta seção apresenta o conjunto das fontes efetivamente utilizadas na constru�
 ### As distribuições GNU/Linux
 
 - Distribuições do Linux. **GuiaFoca**. Disponível em: <<https://www.guiafoca.org/guiaonline/iniciante/ch01s05.html>>. Acesso em: 24 de jun. de 2021.
+- Hardware e Software. **GuiaFoca**. Disponível em: <<https://www.guiafoca.org/guiaonline/iniciante/ch02.html#basico-hardsoft>>. Acesso em: 06 de jul. de 2021.
 
 ## Arquivos no GNU/Linux
 
@@ -49,3 +49,13 @@ Esta seção apresenta o conjunto das fontes efetivamente utilizadas na constru�
 - O que é um Servidor Web (Web Server). **Melhores Hospedagem**. Disponível em: <<https://www.melhoreshospedagem.com/servidor-web/>>. Acesso em: 06 de jul. de 2021.
 - O que é driver?. **Tecmundo**. Disponível em: <<https://www.tecmundo.com.br/driver/207-o-que-e-driver-.htm>>. Acesso em: 06 de jul. de 2021.
 - O que é uma imagem ISO?. **Controle.net**. Disponível em: <<https://www.controle.net/faq/o-que-e-uma-imagem-iso>>. Acesso em: 06 de jul. de 2021.
+- Hardware e Software. **GuiaFoca**. Disponível em: <<https://www.guiafoca.org/guiaonline/iniciante/ch02.html#basico-hardsoft>>. Acesso em: 06 de jul. de 2021.
+
+## O interpretador de comandos
+
+- Interpretador de comandos. **GuiaFoca**. Disponível em: <<https://www.guiafoca.org/guiaonline/iniciante/ch02s08.html>>. Acesso em: 06 de jul. de 2021.
+- Comandos. **GuiaFoca**. Disponível em: <<https://www.guiafoca.org/guiaonline/iniciante/ch02s05.html>>. Acesso em: 06 de jul. de 2021.
+
+### Terminal virtual
+
+- Terminal Virtual (console). **GuiaFoca**. Disponível em: <<https://www.guiafoca.org/guiaonline/iniciante/ch02s09.html>>. Acesso em: 06 de jul. de 2021.

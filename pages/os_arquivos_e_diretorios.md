@@ -1,20 +1,10 @@
-# O que é GNU/Linux?
-
-O GNU/Linux é um sistema operacional *Open Source* composto pelo *kernel* Linux, criado em 1991 por Linus Torvalds, e pelo conjunto de ferramentas GNU, lançado em 1983 por Richard Stallman.
-
-## As distribuições GNU/Linux
-
-No mundo todo existem grupos de pessoas, empresas e organizações que decidem usar o GNU/Linux como base para criar e distribuir, de diferentes formas, sistemas operacionais com outros *softwares*. Esses novos sistemas são chamados de distribuições GNU/Linux.
-
-Existem distribuições que não nascem diretamente do GNU/Linux, mas sim de outras. Atualmente, as  distribuições GNU/Linux mais populares nasceram a partir do Debian ou do Red Hat.
-
 # Arquivos no GNU/Linux
 
 Os arquivos são utilizados para gravar dados. Eles, podem conter um texto, uma música, programa, planilha, etc. 
 
 ## Nomes e extensões
 
-Para facilitar a identificação, cada arquivo deve ter um nome — lembrando que o GNU/Linux é *case sensitive*. No entanto, muitas vezes, não é possível localizar ou saber como utiliza-lo somente pelo nome, por conta disso, existem as extensões. 
+Para facilitar a identificação, cada arquivo deve ter um nome — lembrando que o GNU/Linux é *case sensitive*. No entanto, muitas vezes, não é possível localizar ou saber como utilizá-lo somente pelo nome, por conta disso, existem as extensões. 
 
 A extensão são os caracteres separados do nome do arquivo por um  `.`, assim: `nome_arquivo.extensao`. O uso de extensões não é obrigatório na maioria das distribuições GNU/Linux, mas é conveniente o seu uso para determinar facilmente o tipo de arquivo e qual programa utilizar para abri-lo.
 
@@ -69,15 +59,4 @@ O sistema GNU/Linux possui uma estrutura básica de diretórios. Essa estrutura 
 - `/usr`: Contém a maior parte dos programas. Normalmente acessível somente como leitura.
 - `/var`: Aqui são armazenados logs e arquivos variados que normalmente seriam escritos em `/usr`.
 
-# O interpretador de comandos
-
-Popularmente conhecido como *shell*, é o programa responsável por interpretar as instruções enviadas pelo usuário e seus programas ao *kernel*. Ele que executa comandos lidos do teclado ou de um arquivo executável. O GNU/Linux possui diversos tipos de interpretadores de comandos, entre eles o mais usado é o *bash*.
-
-Os comandos podem ser enviados de duas maneiras para o *shell*, são elas:
-
- - Interativa: Os comandos são digitados e passados ao interpretador de comandos um a um. Neste modo, o computador depende do usuário para executar uma tarefa, ou próximo comando.
- - Não-interativa: São usados *scripts* para o computador executar os comandos na ordem encontrada no arquivo. Neste modo, o computador executa os comandos do arquivo um por um e dependendo do término do comando, o script pode checar qual será o próximo comando que será executado e dar continuidade ao processamento. 
-
-## Terminal virtual
-
-Também conhecido como "console" ou simplesmente "terminal", é um programa que executa um *shell*. Com ele é possível abrir várias seções de trabalho completamente independentes umas das outras. Essas seções podem está conectadas ao *shell* de um computador local ou remoto.
+# Comandos

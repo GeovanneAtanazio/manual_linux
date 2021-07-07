@@ -4,7 +4,7 @@
   "description": "Manual com o conhecimento institucional de GNU/Linux", 
   "language": "pt",
   "structure": {
-    "readme": "Apresentacao.md",
+    "readme": "apresentacao.md",
     "summary": "SUMMARY.md"
   },
   "plugins":["-sharing","github","sharing-plus","back-to-top-button","download-pdf-link"],

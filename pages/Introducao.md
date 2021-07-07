@@ -80,4 +80,4 @@ Os comandos podem ser enviados de duas maneiras para o *shell*, são elas:
 
 ## Terminal virtual
 
-Também conhecido como "console" ou simplesmente "terminal", é um programa que executa um *shell*. Com ele é possível abrir várias seções de trabalho completamente independentes umas das outras. Essas seções podem está conectadas ao *shell* de um computador local ou remoto.Interpretador de comandos
+Também conhecido como "console" ou simplesmente "terminal", é um programa que executa um *shell*. Com ele é possível abrir várias seções de trabalho completamente independentes umas das outras. Essas seções podem está conectadas ao *shell* de um computador local ou remoto.

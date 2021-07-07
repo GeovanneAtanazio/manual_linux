@@ -193,8 +193,74 @@
                                 <h1 id="o-que-&#xE9;-gnulinux">O que &#xE9; GNU/Linux?</h1>
 <p>O GNU/Linux &#xE9; um sistema operacional <em>Open Source</em> composto pelo <em>kernel</em> Linux, criado em 1991 por Linus Torvalds, e pelo conjunto de ferramentas GNU, lan&#xE7;ado em 1983 por Richard Stallman.</p>
 <h2 id="as-distribui&#xE7;&#xF5;es-gnulinux">As distribui&#xE7;&#xF5;es GNU/Linux</h2>
-<p>No mundo todo existem grupos de pessoas, empresas e organiza&#xE7;&#xF5;es que decidem usar o GNU/Linux como base para criar e distribuir, de diferentes formas, sistemas operacionais com outros aplicativos. Esses novos sistemas s&#xE3;o chamados de distribui&#xE7;&#xF5;es GNU/Linux.</p>
-<p>Existem distribui&#xE7;&#xF5;es que n&#xE3;o nascem diretamente do GNU/Linux, mas sim de outras distribui&#xE7;&#xF5;es. Atualmente, as  distribui&#xE7;&#xF5;es GNU/Linux mais populares nasceram a partir do Debian ou do Red Hat.</p>
+<p>No mundo todo existem grupos de pessoas, empresas e organiza&#xE7;&#xF5;es que decidem usar o GNU/Linux como base para criar e distribuir, de diferentes formas, sistemas operacionais com outros <em>softwares</em>. Esses novos sistemas s&#xE3;o chamados de distribui&#xE7;&#xF5;es GNU/Linux.</p>
+<p>Existem distribui&#xE7;&#xF5;es que n&#xE3;o nascem diretamente do GNU/Linux, mas sim de outras. Atualmente, as  distribui&#xE7;&#xF5;es GNU/Linux mais populares nasceram a partir do Debian ou do Red Hat.</p>
+<h1 id="arquivos-no-gnulinux">Arquivos no GNU/Linux</h1>
+<p>O arquivo &#xE9; utilizado para gravar dados. Ele, pode conter um texto, uma m&#xFA;sica, programa, planilha, etc. </p>
+<h2 id="nomes-e-extens&#xF5;es">Nomes e extens&#xF5;es</h2>
+<p>Para facilitar a identifica&#xE7;&#xE3;o, cada arquivo deve ter um nome &#x2014; lembrando que o GNU/Linux &#xE9; <em>case sensitive</em>. No entanto, muitas vezes, n&#xE3;o &#xE9; poss&#xED;vel localizar ou saber qual programa utilizar para abrir um arquivo somente pelo nome, por conta disso, existem as extens&#xF5;es. </p>
+<p>A extens&#xE3;o s&#xE3;o os caracteres separados do nome do arquivo por um  <code>.</code>, assim: <code>nome_arquivo.extensao</code>. O uso de extens&#xF5;es n&#xE3;o &#xE9; obrigat&#xF3;rio na maioria das distribui&#xE7;&#xF5;es GNU/Linux, mas &#xE9; conveniente o seu uso para determinar facilmente o tipo de arquivo e qual programa utilizar para abri-lo.</p>
+<p>No GNU/Linux, quando o primeiro caractere do nome &#xE9; um <code>.</code> significa que o arquivo em quest&#xE3;o &#xE9; oculto. Arquivos ocultos s&#xE3;o ignorados, ou seja, eles existem, mas n&#xE3;o s&#xE3;o listados &#x2014; a n&#xE3;o ser que seja explicitado.</p>
+<h2 id="tipos-de-arquivos">Tipos de arquivos</h2>
+<p>Existem dois tipos de arquivos, s&#xE3;o eles: </p>
+<ul>
+<li>Arquivos de texto: Seu conte&#xFA;do &#xE9; compreendido pelas pessoas. Um arquivo texto pode ser uma carta, um <em>script</em>, um programa de computador escrito pelo programador, arquivo de configura&#xE7;&#xE3;o, etc.</li>
+<li>Arquivos bin&#xE1;rios: Seu conte&#xFA;do somente pode ser entendido por computadores. Um arquivo bin&#xE1;rio &#xE9; gerado por um arquivo de programa atrav&#xE9;s de um processo chamado de compila&#xE7;&#xE3;o.</li>
+</ul>
+<h1 id="diret&#xF3;rios-no-gnulinux">Diret&#xF3;rios no GNU/Linux</h1>
+<p>O diret&#xF3;rio &#xE9; o local utilizado para armazenar conjuntos arquivos. Com os diret&#xF3;rios &#xE9; poss&#xED;vel manter os arquivos organizados. </p>
+<h2 id="caracter&#xED;sticas-dos-diret&#xF3;rios-gnulinux">Caracter&#xED;sticas dos diret&#xF3;rios GNU/Linux</h2>
+<ul>
+<li>O GNU/Linux &#xE9; <em>case sensitive</em> e essa caracter&#xED;stica se aplica tanto aos arquivos quanto aos diret&#xF3;rios.</li>
+<li>Assim como nos arquivos, os diret&#xF3;rios iniciados com <code>.</code> s&#xE3;o ocultos.</li>
+<li>No GNU/Linux n&#xE3;o &#xE9; permitido a exist&#xEA;ncia de dois arquivos com o mesmo nome no mesmo diret&#xF3;rio. As exce&#xE7;&#xE3;o s&#xE3;o:<ul>
+<li>Arquivos de mesmo nome com extens&#xF5;es diferentes. </li>
+<li>Dois arquivos com o mesmo nome, e at&#xE9; com a mesma extens&#xE3;o, com um deles oculto.</li>
+</ul>
+</li>
+<li>No GNU/Linux n&#xE3;o &#xE9; permitido a exist&#xEA;ncia de sub-diret&#xF3;rios com o mesmo nome dentro do mesmo diret&#xF3;rio. A exce&#xE7;&#xE3;o &#xE9;:<ul>
+<li>Dois sub-diret&#xF3;rios com um deles oculto.</li>
+</ul>
+</li>
+<li>No GNU/Linux n&#xE3;o &#xE9; permitido a exist&#xEA;ncia de um sub-diret&#xF3;rio e um arquivo com o mesmo nome. A exce&#xE7;&#xE3;o &#xE9;: <ul>
+<li>Um sub-diret&#xF3;rio e um com um deles oculto.</li>
+</ul>
+</li>
+</ul>
+<h2 id="estrutura--de-diret&#xF3;rios-do-gnulinux">Estrutura  de diret&#xF3;rios do GNU/Linux</h2>
+<p>O sistema GNU/Linux possui uma estrutura b&#xE1;sica de diret&#xF3;rios. Essa estrutura tamb&#xE9;m &#xE9; conhecida como &#xC1;rvore de Diret&#xF3;rios, porque &#xE9; parecida com uma &#xE1;rvore de cabe&#xE7;a para baixo. Cada diret&#xF3;rio do sistema tem seus respectivos arquivos que s&#xE3;o armazenados conforme regras definidas pela <em>Filesystem Hierarchy Standard (FHS)</em> da seguinte forma:</p>
+<ul>
+<li><code>/</code>: Este &#xE9; o diret&#xF3;rio principal do sistema. Dentro dele est&#xE3;o todos os diret&#xF3;rios do sistema.</li>
+<li><code>/bin</code>: &#xC9; reservado para gravar comandos que ser&#xE3;o utilizados por todos os usu&#xE1;rios.</li>
+<li><code>/boot</code>: Cont&#xE9;m os arquivos necess&#xE1;rios para a inicializa&#xE7;&#xE3;o do sistema.</li>
+<li><code>/cdrom</code>: Este diret&#xF3;rio n&#xE3;o faz parte do padr&#xE3;o de hierarquia <em>FHS</em>, por&#xE9;m ele ainda &#xE9; encontrado em algumas distribui&#xE7;&#xF5;es GNU/Linux. &#xC9; utilisado como local tempor&#xE1;rio para <em>CDs</em> e <em>DVDs</em> inseridos no computador &#x2014; por&#xE9;m, o local padr&#xE3;o para essas m&#xED;dias &#xE9; o diret&#xF3;rio <code>/media</code>.</li>
+<li><code>/dev</code>:  Cont&#xE9;m arquivos gerados pelos dispositivos de <em>hardware</em>, como processador, placa de v&#xED;deo, leitor de m&#xED;dia etc.</li>
+<li><code>/etc</code>: Guarda a maioria dos arquivos essenciais do sistema operacional do computador local, como configura&#xE7;&#xE3;o usados para controlar uma opera&#xE7;&#xE3;o ou programa.</li>
+<li><code>/home</code>: Local destinado para os arquivos dos usu&#xE1;rios, com excess&#xE3;o do <em>root</em>.</li>
+<li><code>/lib</code>: Cont&#xE9;m diret&#xF3;rios e <em>links</em> simb&#xF3;licos compartilhados pelos programas do sistema e m&#xF3;dulos do <em>kernel</em>.</li>
+<li><code>/lost+found</code>: Local para a grava&#xE7;&#xE3;o de arquivos ou diret&#xF3;rios corrompidos recuperados ap&#xF3;s uma verifica&#xE7;&#xE3;o do sistema de arquivos &#x2014; esse tipo de verifica&#xE7;&#xE3;o ocorre na primeira reinicializa&#xE7;&#xE3;o ap&#xF3;s um travamento no sistema.</li>
+<li><code>/media</code>: Ponto de montagem de dispositivos remov&#xED;veis como <em>pendrives</em>, <em>CDs</em>, <em>Blu-Ray</em> etc.</li>
+<li><code>/mnt</code>: Ponto de montagem de subdiret&#xF3;rios tempor&#xE1;rios de dispositivos n&#xE3;o remov&#xED;veis e arquivos, como imagens ISO.</li>
+<li><code>/opt</code>: &#xC9; uma &#xE1;rea reservada para instala&#xE7;&#xF5;es de pacotes de aplica&#xE7;&#xF5;es que otimizam o funcionamento de determinado programa ou acrescentam novos recursos.</li>
+<li><code>/proc</code>: &#xC9; usado pelo <em>kernel</em> para guardados registros de desempenho e status de processos.</li>
+<li><code>/root</code>: Diret&#xF3;rio padr&#xE3;o do usu&#xE1;rio <em>root</em>.</li>
+<li><code>/run</code>: Fornece &#xE0;s aplica&#xE7;&#xF5;es um local para armazenamento de arquivo tempor&#xE1;rios que, diferentemente dos arquivos armazenados no <code>/tmp</code>, em caso de exclus&#xE3;o causam problemas &#xE0;s aplica&#xE7;&#xF5;es que os utilizam.</li>
+<li><code>/sbin</code>: Re&#xFA;ne arquivos bin&#xE1;rios acionados pelo sistema em si ou pelo <em>root</em> em processos de manuten&#xE7;&#xE3;o.</li>
+<li><code>/srv</code>: Possui dados que s&#xE3;o utilizados por servi&#xE7;os armazenados, como <em>web servers</em>.</li>
+<li><code>/sys</code>: Sistema de arquivos do <em>kernel</em>, que facilitar a troca de informa&#xE7;&#xF5;es entre os programas que rodam no espa&#xE7;o do <em>kernel</em>, como os <em>drivers</em>, com os programas que rodam no espa&#xE7;o do usu&#xE1;rio &#x2014; por isso,  esse diret&#xF3;rio &#xE9; usado por diversos programas.</li>
+<li><code>/tmp</code>: Diret&#xF3;rio para armazenamento de arquivos tempor&#xE1;rios criados por programas.</li>
+<li><code>/usr</code>: Cont&#xE9;m a maior parte dos programas. Normalmente acess&#xED;vel somente como leitura.</li>
+<li><code>/var</code>: Aqui s&#xE3;o armazenados logs e arquivos variados que normalmente seriam escritos em <code>/usr</code>.</li>
+</ul>
+<h1 id="o-interpretador-de-comandos">O interpretador de comandos</h1>
+<p>Popularmente conhecido como <em>shell</em>, &#xE9; o programa respons&#xE1;vel por interpretar as instru&#xE7;&#xF5;es enviadas pelo usu&#xE1;rio e seus programas ao <em>kernel</em>. Ele que executa comandos lidos do teclado ou de um arquivo execut&#xE1;vel. O GNU/Linux possui diversos tipos de interpretadores de comandos, entre eles o mais usado &#xE9; o <em>bash</em>.</p>
+<p>Os comandos podem ser enviados de duas maneiras para o <em>shell</em>, s&#xE3;o elas:</p>
+<ul>
+<li>Interativa: Os comandos s&#xE3;o digitados e passados ao interpretador de comandos um a um. Neste modo, o computador depende do usu&#xE1;rio para executar uma tarefa, ou pr&#xF3;ximo comando.</li>
+<li>N&#xE3;o-interativa: S&#xE3;o usados <em>scripts</em> para o computador executar os comandos na ordem encontrada no arquivo. Neste modo, o computador executa os comandos do arquivo um por um e dependendo do t&#xE9;rmino do comando, o script pode checar qual ser&#xE1; o pr&#xF3;ximo comando que ser&#xE1; executado e dar continuidade ao processamento. </li>
+</ul>
+<h2 id="terminal-virtual">Terminal virtual</h2>
+<p>Tamb&#xE9;m conhecido como &quot;console&quot; ou simplesmente &quot;terminal&quot;, &#xE9; um programa que executa um <em>shell</em>. Com ele &#xE9; poss&#xED;vel abrir v&#xE1;rias se&#xE7;&#xF5;es de trabalho completamente independentes umas das outras. Essas se&#xE7;&#xF5;es podem est&#xE1; conectadas ao <em>shell</em> de um computador local ou remoto.Interpretador de comandos</p>
 
                                 
                                 </section>
@@ -238,7 +304,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Introdução","level":"1.2","depth":1,"next":{"title":"Glossário","level":"1.3","depth":1,"path":"Glossario.md","ref":"Glossario.md","articles":[]},"previous":{"title":"Manual GNU/Linux","level":"1.1","depth":1,"path":"Apresentacao.md","ref":"Apresentacao.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-sharing","github","sharing-plus","back-to-top-button","download-pdf-link"],"root":"./pages","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"github":{"url":"https://github.com/GeovanneAtanazio/manual_linux/"},"search":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"sepia","family":"sans","size":2},"highlight":{},"back-to-top-button":{},"download-pdf-link":{"label":"Download PDF","base":"https://github.com/GeovanneAtanazio/manual_linux/blob/main/Manual_GNU_Linux.pdf"},"sharing":{"qq":false,"all":["twitter","linkedin","whatsapp","facebook","messenger"],"douban":false,"facebook":false,"weibo":false,"whatsapp":false,"line":false,"google":false,"qzone":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"Apresentacao.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Manual GNU/Linux","language":"pt","gitbook":"*","description":"Manual com o conhecimento institucional de GNU/Linux"},"file":{"path":"Introducao.md","mtime":"2021-06-24T22:36:22.290Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-06-24T22:39:50.175Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Introdução","level":"1.2","depth":1,"next":{"title":"Glossário","level":"1.3","depth":1,"path":"Glossario.md","ref":"Glossario.md","articles":[]},"previous":{"title":"Manual GNU/Linux","level":"1.1","depth":1,"path":"Apresentacao.md","ref":"Apresentacao.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-sharing","github","sharing-plus","back-to-top-button","download-pdf-link"],"root":"./pages","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"github":{"url":"https://github.com/GeovanneAtanazio/manual_linux/"},"search":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"sepia","family":"sans","size":2},"highlight":{},"back-to-top-button":{},"download-pdf-link":{"label":"Download PDF","base":"https://github.com/GeovanneAtanazio/manual_linux/blob/main/Manual_GNU_Linux.pdf"},"sharing":{"qq":false,"all":["twitter","linkedin","whatsapp","facebook","messenger"],"douban":false,"facebook":false,"weibo":false,"whatsapp":false,"line":false,"google":false,"qzone":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"Apresentacao.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Manual GNU/Linux","language":"pt","gitbook":"*","description":"Manual com o conhecimento institucional de GNU/Linux"},"file":{"path":"Introducao.md","mtime":"2021-07-07T00:52:11.189Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-07-07T01:10:54.171Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>

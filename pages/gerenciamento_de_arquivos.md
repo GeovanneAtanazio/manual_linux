@@ -150,7 +150,7 @@ Abaixo estão listados comandos úteis para a manipulação de arquivos.
 - Utilidade: Mover arquivos.
 - Estrutura: **`mv`** *`[opções]`*  *`[origem]`* *`[destino]`*
 -  Opções:
-	`-v`: Mostra os arquivos a medida que são movidos.
+	- `-v`: Mostra os arquivos a medida que são movidos.
 
 ## `find`
  
@@ -180,6 +180,6 @@ Coringas, ou referências globais, é um recurso usado para especificar um ou ma
     - `[a-z][0-9]`: Faz referência aos caracteres de `a` até `z` seguido de um caractere de `0` até `9`.
     - `[a,z][1,0]`: Faz referência aos caracteres `a` e `z` seguido de um caractere `1` ou `0` naquela posição.
     - `[a-z,1,0]`: Faz referência ao intervalo de caracteres de `a` até `z` ou `1` ou `0` naquela posição.   
-- `{ }` - Expande e gera strings para pesquisa de padrões de um arquivo/diretório.
+- `{ }`: Expande e gera strings para pesquisa de padrões de um arquivo/diretório.
     - `X{ab,01}`: Faz referência a sequencia de caracteres `Xab` ou `X01`.
-    -   `X{a-z,10}` Faz referencia a sequencia de caracteres `Xa-z` e `X10`.
+    - `X{a-z,10}`: Faz referencia a sequencia de caracteres `Xa-z` e `X10`.

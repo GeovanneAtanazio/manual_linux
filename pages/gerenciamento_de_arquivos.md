@@ -61,7 +61,7 @@ O sistema GNU/Linux possui uma estrutura básica de diretórios. Essa estrutura 
 
 # Manipulação de arquivos
 
-Abaixo serão listados comandos úteis para a manipulação de arquivos.
+Abaixo estão listados comandos úteis para a manipulação de arquivos.
 
 ## `ls`
 
@@ -176,7 +176,7 @@ Abaixo serão listados comandos úteis para a manipulação de arquivos.
 Coringas, ou referências globais, é um recurso usado para especificar um ou mais arquivos do sistema de uma só vez. Este é um recurso permite fazer a filtragem do que será listado, copiado, apagado, buscados e etc. No GNU/Linux são usados 4 tipos de coringas, são eles:
 - `*`: Faz referência a um nome completo ou restante de um arquivo.
 - `?`:  Faz referência a uma letra naquela posição.
-- `[ ]`: Faz referência a uma faixa de caracteres de um arquivo. Os padrões aceitos estão listados abaixo - caso qualquer uma deles for precedido por um `^` significa que a expressão deve desconsiderar os caracteres indicados:    
+- `[ ]`: Faz referência a uma faixa de caracteres de um arquivo. Os padrões aceitos estão listados abaixo - caso qualquer um deles for precedido por um `^` significa que a expressão deve desconsiderar os caracteres indicados:    
     - `[a-z][0-9]`: Faz referência aos caracteres de `a` até `z` seguido de um caractere de `0` até `9`.
     - `[a,z][1,0]`: Faz referência aos caracteres `a` e `z` seguido de um caractere `1` ou `0` naquela posição.
     - `[a-z,1,0]`: Faz referência ao intervalo de caracteres de `a` até `z` ou `1` ou `0` naquela posição.   

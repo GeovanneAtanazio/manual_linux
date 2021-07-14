@@ -70,7 +70,7 @@ Abaixo estão listados comandos úteis para a manipulação de arquivos.
  - Opções:
 	 - `-a`: Lista todos os arquivos, inclusive os ocultos, de um diretório.
 	 -  `-l`:  Lista permissões, donos, grupos, tamanho em *bytes* e data de modificação dos arquivos.
-	 - `-lh`: Edita o tamanho dos arquivos mostrando pela opção `-l`, ou seja, o tamanho dos arquivos serão exibidos em *Kbytes*, *Mbytes* ou *Gbytes* - o que o GNU/Linux julgar mais conveniente. 
+	 - `-lh`: Edita o tamanho dos arquivos mostrando pela opção `-l`, ou seja, o tamanho dos arquivos serão exibidos em *Kbytes*, *Mbytes* ou *Gbytes* — o que o GNU/Linux julgar mais conveniente. 
  - Macetes: 
 	  1. `ls -lha` é uma concatenação das opções `-l`, `-h`, `-a`. Quando se trata de listagem, talvez, seja o comando mais completo.
 	  2. É possível listar vários diretório com um único comando. Por exemplo, o comando `ls . /` retornará a listagem do diretório atual e do diretório raiz do GNU/Linux.
@@ -99,7 +99,7 @@ Abaixo estão listados comandos úteis para a manipulação de arquivos.
 	- `-v`: Mostra uma mensagem para cada diretório criado.
  - Macetes: 
 	 1. Para criar um novo diretório, o usuário deve ter permissão de gravação.
-	 2. É possível criar vários diretório com um único comando. Por exemplo, o comando `mkdir diretorio1 diretório2` criará dois diretórios - o `diretorio1` e o `diretório2`.
+	 2. É possível criar vários diretório com um único comando. Por exemplo, o comando `mkdir diretorio1 diretório2` criará dois diretórios — o `diretorio1` e o `diretório2`.
 
 ## `rmdir`
 
@@ -107,7 +107,7 @@ Abaixo estão listados comandos úteis para a manipulação de arquivos.
 -  Estrutura: **`rmdir`** *`[caminhos|diretórios]`*.
  - Macetes: 
 	 1. Para remove um diretório, o usuário deve ter permissão de gravação sobre ele.
-	 2. É possível remover vários diretório com um único comando. Por exemplo, o comando `mkdir diretorio1 diretório2` removerá tanto o `diretorio1` quanto o `diretório2` - desde que ambos estejam vazios.
+	 2. É possível remover vários diretório com um único comando. Por exemplo, o comando `mkdir diretorio1 diretório2` removerá tanto o `diretorio1` quanto o `diretório2` — desde que ambos estejam vazios.
 	 3. Para remover um diretório que contém arquivos, basta usar o comando **`rm`** com a opção `-r` seguida pelo diretório que deseja remover.
 
 ## `cat`
@@ -122,7 +122,7 @@ Abaixo estão listados comandos úteis para a manipulação de arquivos.
 - Utilidade: Criar um arquivo regular em branco
 - Estrutura:  **`touch`** *`[caminhos|arquivos]`*.
 - Macetes: 
-	1. É possível criar vários arquivos com um único comando. Por exemplo, o comando `touch arquivo1 arquivo2` criará dois arquivos - o `arquivo1` e o `arquivo2`.
+	1. É possível criar vários arquivos com um único comando. Por exemplo, o comando `touch arquivo1 arquivo2` criará dois arquivos — o `arquivo1` e o `arquivo2`.
 	2.  Para escrever algo no arquivo basta utilizar um editor de texto como por exemplo o Nano ou o Vim.
 
 ## `rm`
@@ -176,7 +176,7 @@ Abaixo estão listados comandos úteis para a manipulação de arquivos.
 Coringas, ou referências globais, é um recurso usado para especificar um ou mais arquivos do sistema de uma só vez. Este é um recurso permite fazer a filtragem do que será listado, copiado, apagado, buscados e etc. No GNU/Linux são usados 4 tipos de coringas, são eles:
 - `*`: Faz referência a um nome completo ou restante de um arquivo.
 - `?`:  Faz referência a uma letra naquela posição.
-- `[ ]`: Faz referência a uma faixa de caracteres de um arquivo. Os padrões aceitos estão listados abaixo - caso qualquer um deles for precedido por um `^` significa que a expressão deve desconsiderar os caracteres indicados:    
+- `[ ]`: Faz referência a uma faixa de caracteres de um arquivo. Os padrões aceitos estão listados abaixo — caso qualquer um deles for precedido por um `^` significa que a expressão deve desconsiderar os caracteres indicados:    
     - `[a-z][0-9]`: Faz referência aos caracteres de `a` até `z` seguido de um caractere de `0` até `9`.
     - `[a,z][1,0]`: Faz referência aos caracteres `a` e `z` seguido de um caractere `1` ou `0` naquela posição.
     - `[a-z,1,0]`: Faz referência ao intervalo de caracteres de `a` até `z` ou `1` ou `0` naquela posição.   

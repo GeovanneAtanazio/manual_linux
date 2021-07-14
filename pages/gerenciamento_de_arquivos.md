@@ -95,20 +95,20 @@ Abaixo estão listados comandos úteis para a manipulação de arquivos.
 - Utilidade: Criar um diretório no GNU/Linux.
 -  Estrutura: **`mkdir`** *`[opções]`* *`[caminhos|diretórios]`*.
 - Opções: 
-	- `-p`: Caso os diretórios dos níveis acima não existam, eles também serão criados.
-	- `-v`: Mostra uma mensagem para cada diretório criado.
- - Macetes: 
-	 1. Para criar um novo diretório, o usuário deve ter permissão de gravação.
-	 2. É possível criar vários diretório com um único comando. Por exemplo, o comando `mkdir diretorio1 diretório2` criará dois diretórios — o `diretorio1` e o `diretório2`.
+  - `-p`: Caso os diretórios dos níveis acima não existam, eles também serão criados.
+  - `-v`: Mostra uma mensagem para cada diretório criado.
+- Macetes: 
+  1. Para criar um novo diretório, o usuário deve ter permissão de gravação.
+  2. É possível criar vários diretório com um único comando. Por exemplo, o comando `mkdir diretorio1 diretório2` criará dois diretórios — o `diretorio1` e o `diretório2`.
 
 ## `rmdir`
 
 - Utilidade: Remover um diretório vazio do GNU/Linux.
--  Estrutura: **`rmdir`** *`[caminhos|diretórios]`*.
- - Macetes: 
-	 1. Para remove um diretório, o usuário deve ter permissão de gravação sobre ele.
-	 2. É possível remover vários diretório com um único comando. Por exemplo, o comando `mkdir diretorio1 diretório2` removerá tanto o `diretorio1` quanto o `diretório2` — desde que ambos estejam vazios.
-	 3. Para remover um diretório que contém arquivos, basta usar o comando **`rm`** com a opção `-r` seguida pelo diretório que deseja remover.
+- Estrutura: **`rmdir`** *`[caminhos|diretórios]`*.
+- Macetes: 
+	1. Para remove um diretório, o usuário deve ter permissão de gravação sobre ele.
+	2. É possível remover vários diretório com um único comando. Por exemplo, o comando `mkdir diretorio1 diretório2` removerá tanto o `diretorio1` quanto o `diretório2` — desde que ambos estejam vazios.
+	3. Para remover um diretório que contém arquivos, basta usar o comando **`rm`** com a opção `-r` seguida pelo diretório que deseja remover.
 
 ## `cat`
 

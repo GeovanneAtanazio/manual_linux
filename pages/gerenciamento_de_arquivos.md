@@ -173,9 +173,9 @@ Abaixo estão listados comandos úteis para a manipulação de arquivos.
 		 - `l`: *link* simbólico;
 		 - `p`: *pipe*;	
 		 - `s`: *socket*.
-- Macetes: 
-	 1. Para fazer buscas  com o `-atime`, `-mtime` ou `-ctime` é interessante não somente indicar os dias, mas também especificar o intervalo. O `-` significa "a menos de", enquanto o `+` significa "a mais de". Por exemplo, o comando `find / -atime -2` busca arquivos acessados a menos de dois dias.
-	 2. É possível concatenar as opções e fazer buscas mais refinadas. Por exemplo: `find / -iname teste -user root`.
+ - Macetes: 
+	1. Para fazer buscas  com o `-atime`, `-mtime` ou `-ctime` é interessante não somente indicar os dias, mas também especificar o intervalo. O `-` significa "a menos de", enquanto o `+` significa "a mais de". Por exemplo, o comando `find / -atime -2` busca arquivos acessados a menos de dois dias.
+	2. É possível concatenar as opções e fazer buscas mais refinadas. Por exemplo: `find / -iname teste -user root`.
 
 # Referências globais
 

@@ -157,6 +157,9 @@ Abaixo estão listados comandos úteis para a manipulação de arquivos.
  - Utilidade: Buscar arquivos.
  - Estrutura: **`find`** *`[diretorio]`*  *`[opções]`* *`[expressão]`*
  - Opções:
+     - `-atime`: Procurar arquivos acessados dentro de um intervalo de dias.
+	 - `-mtime`: Procurar arquivos modificados dentro de um intervalo de dias.
+	 - `-ctime`: Procurar arquivos criados dentro de um intervalo de dias.
 	 - `-name`: Procura um arquivo pelo nome — é *case sensitive*.
 	 - `-iname`: Procura um arquivo pelo nome — não é *case sensitive*.
 	 - `-user`: Procura arquivos pelo usuário.
@@ -170,6 +173,9 @@ Abaixo estão listados comandos úteis para a manipulação de arquivos.
 		 - `l`: *link* simbólico;
 		 - `p`: *pipe*;	
 		 - `s`: *socket*.
+- Macetes: 
+	 1. Para fazer buscas  com o `-atime`, `-mtime` ou `-ctime` é interessante não somente indicar os dias, mas também especificar o intervalo. O `-` significa "a menos de", enquanto o `+` significa "a mais de". Por exemplo, o comando `find / -atime -2` busca arquivos acessados a menos de dois dias.
+	 2. É possível concatenar as opções e fazer buscas mais refinadas. Por exemplo: `find / -iname teste -user root`.
 
 # Referências globais
 

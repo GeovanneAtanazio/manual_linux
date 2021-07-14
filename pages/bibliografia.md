@@ -41,15 +41,14 @@ Esta seção apresenta o conjunto das fontes efetivamente utilizadas na constru�
 ### Tipos de arquivos 
 
 - Arquivo. **GuiaFoca**. Disponível em: <https://www.guiafoca.org/guiaonline/iniciante/ch02s02.html>. Acesso em: 05 de jul. de 2021.
+- Tipos de Arquivos em Linux. **Portal GSTI**. Disponível em: <https://www.portalgsti.com.br/2017/04/tipos-de-arquivos-em-linux.html>. Acesso em: 13 de jul. de 2021.
 - Métodos de tradução: interpretador x compilador. **iMasters**. Disponível em: <https://imasters.com.br/desenvolvimento/metodos-de-traducao-interpretador-x-compilador>. Acesso em: 05 de jul. de 2021.
 - Existe diferença entre "script" e programa?. **Quora**. Disponível em: <https://pt.quora.com/Existe-diferen%C3%A7a-entre-script-e-programa>. Acesso em: 05 de jul. de 2021.
+- O que são processos de um sistema operacional e por que é importante saber. **Tecmundo**. Disponível em: <https://www.tecmundo.com.br/memoria/3197-o-que-sao-processos-de-um-sistema-operacional-e-por-que-e-importante-saber.htm>. Acesso em: 13 de jul. de 2021.
 
 ## Diretórios no GNU/Linux
 
 - Diretório. **GuiaFoca**. Disponível em: <https://www.guiafoca.org/guiaonline/iniciante/ch02s03.html>. Acesso em: 05 de jul. de 2021.
-
-### Características dos diretórios GNU/Linux
-
 - Diretório. **GuiaFoca**. Disponível em: <https://www.guiafoca.org/guiaonline/iniciante/ch02s03.html>. Acesso em: 05 de jul. de 2021.
 
 ### Estrutura  de diretórios do GNU/Linux
@@ -63,3 +62,58 @@ Esta seção apresenta o conjunto das fontes efetivamente utilizadas na constru�
 - O que é driver?. **Tecmundo**. Disponível em: <https://www.tecmundo.com.br/driver/207-o-que-e-driver-.htm>. Acesso em: 06 de jul. de 2021.
 - O que é uma imagem ISO?. **Controle.net**. Disponível em: <https://www.controle.net/faq/o-que-e-uma-imagem-iso>. Acesso em: 06 de jul. de 2021.
 - Hardware e Software. **GuiaFoca**. Disponível em: <https://www.guiafoca.org/guiaonline/iniciante/ch02.html#basico-hardsoft>. Acesso em: 06 de jul. de 2021.
+
+## Manipulação de arquivos
+
+-  Capítulo 6. Comandos para manipulação de diretório. **GuiaFoca**. Disponível em: <https://www.guiafoca.org/guiaonline/iniciante/ch06.html>. Acesso em: 13 de jul. de 2021.
+-  Capítulo 7. Comandos para manipulação de Arquivos. **GuiaFoca**. Disponível em: <https://www.guiafoca.org/guiaonline/iniciante/ch07.html>. Acesso em: 13 de jul. de 2021.
+
+### `ls`
+
+- ls. **GuiaFoca**. Disponível em: <https://www.guiafoca.org/guiaonline/iniciante/ch06.html#comando-ls>. Acesso em: 13 de jul. de 2021.
+- Tamanho de arquivo. **GuiaFoca**. Disponível em <https://www.guiafoca.org/guiaonline/iniciante/ch02s02.html#basico-arquivo-tamanho>. Acesso em: 13 de jul. de 2021.
+
+### `cd`
+
+- cd. **GuiaFoca**. Disponível em: <https://www.guiafoca.org/guiaonline/iniciante/ch06s02.html>. Acesso em: 13 de jul. de 2021.
+
+### `pwd`
+
+- pwd. **GuiaFoca**. Disponível em: <https://www.guiafoca.org/guiaonline/iniciante/ch06s03.html>. Acesso em: 13 de jul. de 2021.
+
+### `mkdir`
+
+-  mkdir. **GuiaFoca**. Disponível em: <https://www.guiafoca.org/guiaonline/iniciante/ch06s04.html>. Acesso em: 13 de jul. de 2021.
+
+### `rmdir`
+
+- rmdir. **GuiaFoca**. Disponível em: <https://www.guiafoca.org/guiaonline/iniciante/ch06s05.html>. Acesso em: 13 de jul. de 2021.
+
+### `cat`
+
+- cat. **GuiaFoca**. Disponível em: <https://www.guiafoca.org/guiaonline/iniciante/ch07.html#comandos-cat>. Acesso em: 13 de jul. de 2021.
+
+### `touch`
+
+- Aprenda a gerenciar arquivos no modo console do Linux. **CanalTech**. Disponível em: <https://canaltech.com.br/linux/Aprenda-a-gerenciar-arquivos-no-modo-console-do-Linux/>. Acesso em: 13 de jul. de 2021.
+
+### `rm`
+
+- rm. **GuiaFoca**. Disponível em: <https://www.guiafoca.org/guiaonline/iniciante/ch07s03.html>. Acesso em: 13 de jul. de 2021.
+
+### `cp`
+
+- cp. **GuiaFoca**. Disponível em: <https://www.guiafoca.org/guiaonline/iniciante/ch07s04.html>. Acesso em: 13 de jul. de 2021.
+
+### `mv`
+
+- mv. **GuiaFoca**. Disponível em: <https://www.guiafoca.org/guiaonline/iniciante/ch07s05.html>. Acesso em: 13 de jul. de 2021.
+
+### `find`
+
+-  find. **GuiaFoca**. Disponível em: <https://www.guiafoca.org/guiaonline/iniciante/ch08s06.html>. Acesso em: 13 de jul. de 2021.
+- Comandos para procurar arquivos no Linux - FIND e LOCATE. **LINUXtips**. Disponível em: <https://www.youtube.com/watch?v=ARpruwUhKPA>. Acesso em: 13 de jul. de 2021.
+
+## Referências globais
+
+- Coringas. **GuiaFoca**. Disponível em: <https://www.guiafoca.org/guiaonline/iniciante/ch02s12.html>. Acesso em: 13 de jul. de 2021.

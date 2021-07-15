@@ -66,7 +66,7 @@ Abaixo estão listados comandos úteis para a manipulação de arquivos.
 ## `ls`
 
  - Utilidade: Listar os arquivos de um diretório.
- - Estrutura: **`ls`** *`[opções]`* *`[caminhos|arquivos]`*.
+ - Estrutura: `ls` *`[opções]`* *`[caminhos|arquivos]`*.
  - Opções:
 	 - `-a`: Lista todos os arquivos, inclusive os ocultos, de um diretório.
 	 -  `-l`:  Lista permissões, donos, grupos, tamanho em *bytes* e data de modificação dos arquivos.
@@ -78,7 +78,7 @@ Abaixo estão listados comandos úteis para a manipulação de arquivos.
 ## `cd`
 
 - Utilidade: Entrar em um diretório. O usuário precisa ter a permissão de execução para entrar no diretório.
-- Estrutura: **`cd`** *`[caminho|diretório]`*.
+- Estrutura: `cd` *`[caminho|diretório]`*.
 - Macetes: 
 	1.  `cd /`: Levará ao diretório raiz do GNU/Linux.
 	2.  `cd ~`: Levará para o diretório padrão do usuário que está operando o GNU/Linux.
@@ -93,7 +93,7 @@ Abaixo estão listados comandos úteis para a manipulação de arquivos.
 ## `mkdir`
 
 - Utilidade: Criar um diretório no GNU/Linux.
--  Estrutura: **`mkdir`** *`[opções]`* *`[caminhos|diretórios]`*.
+-  Estrutura: `mkdir` *`[opções]`* *`[caminhos|diretórios]`*.
 - Opções: 
   - `-p`: Caso os diretórios dos níveis acima não existam, eles também serão criados.
   - `-v`: Mostra uma mensagem para cada diretório criado.
@@ -104,23 +104,23 @@ Abaixo estão listados comandos úteis para a manipulação de arquivos.
 ## `rmdir`
 
 - Utilidade: Remover um diretório vazio do GNU/Linux.
-- Estrutura: **`rmdir`** *`[caminhos|diretórios]`*.
+- Estrutura: `rmdir` *`[caminhos|diretórios]`*.
 - Macetes: 
 	1. Para remove um diretório, o usuário deve ter permissão de gravação sobre ele.
 	2. É possível remover vários diretório com um único comando. Por exemplo, o comando `mkdir diretorio1 diretório2` removerá tanto o `diretorio1` quanto o `diretório2` — desde que ambos estejam vazios.
-	3. Para remover um diretório que contém arquivos, basta usar o comando **`rm`** com a opção `-r` seguida pelo diretório que deseja remover.
+	3. Para remover um diretório que contém arquivos, basta usar o comando `rm` com a opção `-r` seguida pelo diretório que deseja remover.
 
 ## `cat`
 
 - Utilidade: Mostrar o conteúdo de um arquivo binário ou de texto.
-- Estrutura:  **`cat`** *`[opções]`* *`[caminhos|arquivos]`*.
+- Estrutura:  `cat` *`[opções]`* *`[caminhos|arquivos]`*.
 - Opções:
 	- `-n`: Mostra o número das linhas enquanto o conteúdo do arquivo é mostrado.
 
 ## `touch`
 
 - Utilidade: Criar um arquivo regular em branco
-- Estrutura:  **`touch`** *`[caminhos|arquivos]`*.
+- Estrutura:  `touch` *`[caminhos|arquivos]`*.
 - Macetes: 
 	1. É possível criar vários arquivos com um único comando. Por exemplo, o comando `touch arquivo1 arquivo2` criará dois arquivos — o `arquivo1` e o `arquivo2`.
 	2.  Para escrever algo no arquivo basta utilizar um editor de texto como por exemplo o Nano ou o Vim.
@@ -128,7 +128,7 @@ Abaixo estão listados comandos úteis para a manipulação de arquivos.
 ## `rm`
 
 - Utilidade: Remover arquivos.
-- Estrutura: **`rm`** *`[opções]`* *`[caminhos|diretórios]`*.
+- Estrutura: `rm` *`[opções]`* *`[caminhos|diretórios]`*.
 - Opções: 
 	- `-i`: Pergunta antes de remover um arquivos.
 	- `-v`: Mostra os arquivos a medida que são removidos.
@@ -139,7 +139,7 @@ Abaixo estão listados comandos úteis para a manipulação de arquivos.
 ## `cp`
 
 - Utilidade: Copiar arquivos.
-- Estrutura: **`cp`** *`[opções]`*  *`[origem]`* *`[destino]`*
+- Estrutura: `cp` *`[opções]`*  *`[origem]`* *`[destino]`*
 -  Opções:
 	- `-r` Copia arquivos dos diretórios e subdiretórios da origem para o destino.
 	- `-v`: Mostra os arquivos a medida que são copiados.
@@ -148,14 +148,14 @@ Abaixo estão listados comandos úteis para a manipulação de arquivos.
 ## `mv`
 
 - Utilidade: Mover arquivos.
-- Estrutura: **`mv`** *`[opções]`*  *`[origem]`* *`[destino]`*
+- Estrutura: `mv` *`[opções]`*  *`[origem]`* *`[destino]`*
 -  Opções:
 	- `-v`: Mostra os arquivos a medida que são movidos.
 
 ## `find`
  
  - Utilidade: Buscar arquivos.
- - Estrutura: **`find`** *`[diretorio]`*  *`[opções]`* *`[expressão]`*
+ - Estrutura: `find` *`[diretorio]`*  *`[opções]`* *`[expressão]`*
  - Opções:
      - `-atime`: Procurar arquivos acessados dentro de um intervalo de dias.
 	 - `-mtime`: Procurar arquivos modificados dentro de um intervalo de dias.
@@ -189,3 +189,56 @@ Coringas, ou referências globais, é um recurso usado para especificar um ou ma
 - `{ }`: Expande e gera strings para pesquisa de padrões de um arquivo/diretório.
     - `X{ab,01}`: Faz referência a sequencia de caracteres `Xab` ou `X01`.
     - `X{a-z,10}`: Faz referencia a sequencia de caracteres `Xa-z` e `X10`.
+
+# Compactadores
+
+Compactadores são programas que diminuem o tamanho de um ou vários arquivo através de algoritmos muito avançados e complexos. A eficiência desses algoritmos pode ser mesurada pela  taxa de compactação — que é o quanto um arquivo foi compactado. Por exemplo, se o tamanho do arquivo for diminuído a metade após a compactação, a taxa de compactação foi de  2:1 ou dois para um.
+
+É importante frisar que não é possível trabalhar diretamente com arquivos compactados. Para manipula-los  é necessário descompactar o arquivo. Entretanto, alguns programas descompactam o arquivo, o abrem e  assim que o trabalho estiver concluído o compactam novamente, tudo isso para facilitar a rotina de trabalho.
+
+## Tipos de compactação
+
+Existem, basicamente, dois tipos de compactação, são elas:
+
+ - Compactação sem perda: Não causa nenhuma perda nas informações contidas no arquivo. 
+ - Compactação com perda: É desenvolvida para atingir altas taxas de compactação, porém com perdas parciais dos dados. É aplicada a tipos de arquivos especiais, como músicas e imagens ou arquivos que envolvam a percepção humana.
+ 
+## Arquivos de compactação
+
+Para identificar um arquivo compactado e o programa utilizado para descompactá-lo, basta verificar a extensão do arquivo. Abaixo segue uma listagem dos programas mais comuns de descompactação e como utiliza-los:
+
+- `gzip`:  É capaz de compactar arquivos para a extensão `.gz` e descompactá-los. Possui uma ótima taxa de compactação e velocidade.
+	- Estrutura: `gzip` *`[opções]`* *`[arquivos]`*.
+	- Opções:
+		- `-d`: Descompacta um arquivo.
+		- `-l` Lista o conteúdo de um arquivo `.gz`.
+		- `-r`: Compacta diretórios e subdiretórios.
+- `bzip2`:  É um novo compactador que vem sendo cada vez mais usado porque consegue atingir a melhor compactação em arquivos texto se comparado aos já existentes, em consequência sua velocidade de compactação também é menor; quase duas vezes mais lento que o `gzip`.
+	- Estrutura: `bzip2` *`[opções]`* *`[arquivos]`*.
+	- Opções:
+		- `-d`: Descompacta um arquivo.
+		- `-l` Lista o conteúdo de um arquivo `.bz2`.
+		- `-r`: Compacta diretórios e subdiretórios.
+- `zip`: Utilitário de compactação compatível com arquivos de extensão `.zip`.
+	- Estrutura: `zip` *`[opções]`* *`[arquivo-destino]`* *`[arquivo-origem]`*.
+	- Opções:
+		- `-r`: Compacta diretórios e subdiretórios.
+		- `-e`: Permite encriptar o conteúdo de um arquivo `.zip` através de senha. A senha será pedida no momento da compactação.
+		- `-y`: Armazena links simbólicos no arquivo `.zip`. Por padrão, os links simbólicos são ignorados durante a compactação.
+	- Macetes:
+		1. Para a descompactação de arquivos `.zip` no GNU/Linux, é necessário o uso do `unzip` seguido do nome do arquivo que deseja descompactar.
+- `rar`: É um compactador que trabalha com arquivos de extensão `.rar`.  
+	- Estrutura: `rar` *`[ações]`* *`[opções]`* *`[arquivos]`*.
+	- Ações:
+		- `a`: Compacta arquivos.
+		- `x`: Descompacta arquivos.
+	- Opções:
+		- `p`: Inclui senha no arquivo. Cuidado, pessoas conectadas ao sistema operacional podem capturar a linha de comando facilmente e descobrir a senha.
+- `tar`:  Não é um compactador, ele apenas junta vários arquivos em um só.
+	- Estrutura: `tar` *`[opções]`* *`[arquivo-destino]`* *`[arquivo-origem]`*.
+	- Opções:
+		- `-x`: Extrai arquivos `.tar`.
+		- `-t`: Lista o conteúdo de um arquivo `.tar`.
+		- `-c`: Cria um novo arquivo `.tar`.
+	- Macetes:
+		1. É comum encontrar arquivos `.tar` compactados em um arquivo `.gz` — nesses casos a extensão do arquivo será `.tar.gz`. Para descompactá-lo basta utilizar a opção `-z` para chamar o `gzip`.

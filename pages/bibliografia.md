@@ -117,3 +117,20 @@ Esta seção apresenta o conjunto das fontes efetivamente utilizadas na constru�
 ## Referências globais
 
 - Coringas. **GuiaFoca**. Disponível em: <https://www.guiafoca.org/guiaonline/iniciante/ch02s12.html>. Acesso em: 13 de jul. de 2021.
+
+## Compactadores
+
+- Capítulo 18. Compactadores. **GuiaFoca**. Disponível em: <https://www.guiafoca.org/guiaonline/intermediario/ch18.html>. Acesso em: 14 de jul. de 2021.
+
+### Tipos de compactação
+
+- Tipos de compactação. **GuiaFoca**. Disponível em: <https://www.guiafoca.org/guiaonline/intermediario/ch18.html#cpctd-tipos>. Acesso em: 14 de jul. de 2021.
+
+### Arquivos de compactação
+
+- Extensões de arquivos compactados. **GuiaFoca**. Disponível em: <https://www.guiafoca.org/guiaonline/intermediario/ch18s02.html>. Acesso em: 14 de jul. de 2021.
+- gzip. **GuiaFoca**. Disponível em: <https://www.guiafoca.org/guiaonline/intermediario/ch18s03.html>. Acesso em: 14 de jul. de 2021.
+- bzip. **GuiaFoca**. Disponível em: <https://www.guiafoca.org/guiaonline/intermediario/ch18s07.html>. Acesso em: 14 de jul. de 2021.
+- zip. **GuiaFoca**. Disponível em: <https://www.guiafoca.org/guiaonline/intermediario/ch18s04.html>. Acesso em: 14 de jul. de 2021.
+- rar. **GuiaFoca**. Disponível em: <https://www.guiafoca.org/guiaonline/intermediario/ch18s08.html>. Acesso em: 14 de jul. de 2021.
+- tar. **GuiaFoca**. Disponível em: <https://www.guiafoca.org/guiaonline/intermediario/ch18s06.html>. Acesso em: 14 de jul. de 2021.

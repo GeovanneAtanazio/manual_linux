@@ -277,7 +277,7 @@
 <h2 id="ls"><code>ls</code></h2>
 <ul>
 <li>Utilidade: Listar os arquivos de um diret&#xF3;rio.</li>
-<li>Estrutura: <strong><code>ls</code></strong> <em><code>[op&#xE7;&#xF5;es]</code></em> <em><code>[caminhos|arquivos]</code></em>.</li>
+<li>Estrutura: <code>ls</code> <em><code>[op&#xE7;&#xF5;es]</code></em> <em><code>[caminhos|arquivos]</code></em>.</li>
 <li>Op&#xE7;&#xF5;es:<ul>
 <li><code>-a</code>: Lista todos os arquivos, inclusive os ocultos, de um diret&#xF3;rio.</li>
 <li><code>-l</code>:  Lista permiss&#xF5;es, donos, grupos, tamanho em <em>bytes</em> e data de modifica&#xE7;&#xE3;o dos arquivos.</li>
@@ -293,7 +293,7 @@
 <h2 id="cd"><code>cd</code></h2>
 <ul>
 <li>Utilidade: Entrar em um diret&#xF3;rio. O usu&#xE1;rio precisa ter a permiss&#xE3;o de execu&#xE7;&#xE3;o para entrar no diret&#xF3;rio.</li>
-<li>Estrutura: <strong><code>cd</code></strong> <em><code>[caminho|diret&#xF3;rio]</code></em>.</li>
+<li>Estrutura: <code>cd</code> <em><code>[caminho|diret&#xF3;rio]</code></em>.</li>
 <li>Macetes: <ol>
 <li><code>cd /</code>: Levar&#xE1; ao diret&#xF3;rio raiz do GNU/Linux.</li>
 <li><code>cd ~</code>: Levar&#xE1; para o diret&#xF3;rio padr&#xE3;o do usu&#xE1;rio que est&#xE1; operando o GNU/Linux.</li>
@@ -310,7 +310,7 @@
 <h2 id="mkdir"><code>mkdir</code></h2>
 <ul>
 <li>Utilidade: Criar um diret&#xF3;rio no GNU/Linux.</li>
-<li>Estrutura: <strong><code>mkdir</code></strong> <em><code>[op&#xE7;&#xF5;es]</code></em> <em><code>[caminhos|diret&#xF3;rios]</code></em>.</li>
+<li>Estrutura: <code>mkdir</code> <em><code>[op&#xE7;&#xF5;es]</code></em> <em><code>[caminhos|diret&#xF3;rios]</code></em>.</li>
 <li>Op&#xE7;&#xF5;es: <ul>
 <li><code>-p</code>: Caso os diret&#xF3;rios dos n&#xED;veis acima n&#xE3;o existam, eles tamb&#xE9;m ser&#xE3;o criados.</li>
 <li><code>-v</code>: Mostra uma mensagem para cada diret&#xF3;rio criado.</li>
@@ -325,18 +325,18 @@
 <h2 id="rmdir"><code>rmdir</code></h2>
 <ul>
 <li>Utilidade: Remover um diret&#xF3;rio vazio do GNU/Linux.</li>
-<li>Estrutura: <strong><code>rmdir</code></strong> <em><code>[caminhos|diret&#xF3;rios]</code></em>.</li>
+<li>Estrutura: <code>rmdir</code> <em><code>[caminhos|diret&#xF3;rios]</code></em>.</li>
 <li>Macetes: <ol>
 <li>Para remove um diret&#xF3;rio, o usu&#xE1;rio deve ter permiss&#xE3;o de grava&#xE7;&#xE3;o sobre ele.</li>
 <li>&#xC9; poss&#xED;vel remover v&#xE1;rios diret&#xF3;rio com um &#xFA;nico comando. Por exemplo, o comando <code>mkdir diretorio1 diret&#xF3;rio2</code> remover&#xE1; tanto o <code>diretorio1</code> quanto o <code>diret&#xF3;rio2</code> &#x2014; desde que ambos estejam vazios.</li>
-<li>Para remover um diret&#xF3;rio que cont&#xE9;m arquivos, basta usar o comando <strong><code>rm</code></strong> com a op&#xE7;&#xE3;o <code>-r</code> seguida pelo diret&#xF3;rio que deseja remover.</li>
+<li>Para remover um diret&#xF3;rio que cont&#xE9;m arquivos, basta usar o comando <code>rm</code> com a op&#xE7;&#xE3;o <code>-r</code> seguida pelo diret&#xF3;rio que deseja remover.</li>
 </ol>
 </li>
 </ul>
 <h2 id="cat"><code>cat</code></h2>
 <ul>
 <li>Utilidade: Mostrar o conte&#xFA;do de um arquivo bin&#xE1;rio ou de texto.</li>
-<li>Estrutura:  <strong><code>cat</code></strong> <em><code>[op&#xE7;&#xF5;es]</code></em> <em><code>[caminhos|arquivos]</code></em>.</li>
+<li>Estrutura:  <code>cat</code> <em><code>[op&#xE7;&#xF5;es]</code></em> <em><code>[caminhos|arquivos]</code></em>.</li>
 <li>Op&#xE7;&#xF5;es:<ul>
 <li><code>-n</code>: Mostra o n&#xFA;mero das linhas enquanto o conte&#xFA;do do arquivo &#xE9; mostrado.</li>
 </ul>
@@ -345,7 +345,7 @@
 <h2 id="touch"><code>touch</code></h2>
 <ul>
 <li>Utilidade: Criar um arquivo regular em branco</li>
-<li>Estrutura:  <strong><code>touch</code></strong> <em><code>[caminhos|arquivos]</code></em>.</li>
+<li>Estrutura:  <code>touch</code> <em><code>[caminhos|arquivos]</code></em>.</li>
 <li>Macetes: <ol>
 <li>&#xC9; poss&#xED;vel criar v&#xE1;rios arquivos com um &#xFA;nico comando. Por exemplo, o comando <code>touch arquivo1 arquivo2</code> criar&#xE1; dois arquivos &#x2014; o <code>arquivo1</code> e o <code>arquivo2</code>.</li>
 <li>Para escrever algo no arquivo basta utilizar um editor de texto como por exemplo o Nano ou o Vim.</li>
@@ -355,7 +355,7 @@
 <h2 id="rm"><code>rm</code></h2>
 <ul>
 <li>Utilidade: Remover arquivos.</li>
-<li>Estrutura: <strong><code>rm</code></strong> <em><code>[op&#xE7;&#xF5;es]</code></em> <em><code>[caminhos|diret&#xF3;rios]</code></em>.</li>
+<li>Estrutura: <code>rm</code> <em><code>[op&#xE7;&#xF5;es]</code></em> <em><code>[caminhos|diret&#xF3;rios]</code></em>.</li>
 <li>Op&#xE7;&#xF5;es: <ul>
 <li><code>-i</code>: Pergunta antes de remover um arquivos.</li>
 <li><code>-v</code>: Mostra os arquivos a medida que s&#xE3;o removidos.</li>
@@ -370,7 +370,7 @@
 <h2 id="cp"><code>cp</code></h2>
 <ul>
 <li>Utilidade: Copiar arquivos.</li>
-<li>Estrutura: <strong><code>cp</code></strong> <em><code>[op&#xE7;&#xF5;es]</code></em>  <em><code>[origem]</code></em> <em><code>[destino]</code></em></li>
+<li>Estrutura: <code>cp</code> <em><code>[op&#xE7;&#xF5;es]</code></em>  <em><code>[origem]</code></em> <em><code>[destino]</code></em></li>
 <li>Op&#xE7;&#xF5;es:<ul>
 <li><code>-r</code> Copia arquivos dos diret&#xF3;rios e subdiret&#xF3;rios da origem para o destino.</li>
 <li><code>-v</code>: Mostra os arquivos a medida que s&#xE3;o copiados.</li>
@@ -381,7 +381,7 @@
 <h2 id="mv"><code>mv</code></h2>
 <ul>
 <li>Utilidade: Mover arquivos.</li>
-<li>Estrutura: <strong><code>mv</code></strong> <em><code>[op&#xE7;&#xF5;es]</code></em>  <em><code>[origem]</code></em> <em><code>[destino]</code></em></li>
+<li>Estrutura: <code>mv</code> <em><code>[op&#xE7;&#xF5;es]</code></em>  <em><code>[origem]</code></em> <em><code>[destino]</code></em></li>
 <li>Op&#xE7;&#xF5;es:<ul>
 <li><code>-v</code>: Mostra os arquivos a medida que s&#xE3;o movidos.</li>
 </ul>
@@ -390,7 +390,7 @@
 <h2 id="find"><code>find</code></h2>
 <ul>
 <li>Utilidade: Buscar arquivos.</li>
-<li>Estrutura: <strong><code>find</code></strong> <em><code>[diretorio]</code></em>  <em><code>[op&#xE7;&#xF5;es]</code></em> <em><code>[express&#xE3;o]</code></em></li>
+<li>Estrutura: <code>find</code> <em><code>[diretorio]</code></em>  <em><code>[op&#xE7;&#xF5;es]</code></em> <em><code>[express&#xE3;o]</code></em></li>
 <li>Op&#xE7;&#xF5;es:<ul>
 <li><code>-atime</code>: Procurar arquivos acessados dentro de um intervalo de dias.</li>
 <li><code>-mtime</code>: Procurar arquivos modificados dentro de um intervalo de dias.</li>
@@ -432,6 +432,80 @@
 <li><code>{ }</code>: Expande e gera strings para pesquisa de padr&#xF5;es de um arquivo/diret&#xF3;rio.<ul>
 <li><code>X{ab,01}</code>: Faz refer&#xEA;ncia a sequencia de caracteres <code>Xab</code> ou <code>X01</code>.</li>
 <li><code>X{a-z,10}</code>: Faz referencia a sequencia de caracteres <code>Xa-z</code> e <code>X10</code>.</li>
+</ul>
+</li>
+</ul>
+<h1 id="compactadores">Compactadores</h1>
+<p>Compactadores s&#xE3;o programas que diminuem o tamanho de um ou v&#xE1;rios arquivo atrav&#xE9;s de algoritmos muito avan&#xE7;ados e complexos. A efici&#xEA;ncia desses algoritmos pode ser mesurada pela  taxa de compacta&#xE7;&#xE3;o &#x2014; que &#xE9; o quanto um arquivo foi compactado. Por exemplo, se o tamanho do arquivo for diminu&#xED;do a metade ap&#xF3;s a compacta&#xE7;&#xE3;o, a taxa de compacta&#xE7;&#xE3;o foi de  2:1 ou dois para um.</p>
+<p>&#xC9; importante frisar que n&#xE3;o &#xE9; poss&#xED;vel trabalhar diretamente com arquivos compactados. Para manipula-los  &#xE9; necess&#xE1;rio descompactar o arquivo. Entretanto, alguns programas descompactam o arquivo, o abrem e  assim que o trabalho estiver conclu&#xED;do o compactam novamente, tudo isso para facilitar a rotina de trabalho.</p>
+<h2 id="tipos-de-compacta&#xE7;&#xE3;o">Tipos de compacta&#xE7;&#xE3;o</h2>
+<p>Existem, basicamente, dois tipos de compacta&#xE7;&#xE3;o, s&#xE3;o elas:</p>
+<ul>
+<li>Compacta&#xE7;&#xE3;o sem perda: N&#xE3;o causa nenhuma perda nas informa&#xE7;&#xF5;es contidas no arquivo. </li>
+<li>Compacta&#xE7;&#xE3;o com perda: &#xC9; desenvolvida para atingir altas taxas de compacta&#xE7;&#xE3;o, por&#xE9;m com perdas parciais dos dados. &#xC9; aplicada a tipos de arquivos especiais, como m&#xFA;sicas e imagens ou arquivos que envolvam a percep&#xE7;&#xE3;o humana.</li>
+</ul>
+<h2 id="arquivos-de-compacta&#xE7;&#xE3;o">Arquivos de compacta&#xE7;&#xE3;o</h2>
+<p>Para identificar um arquivo compactado e o programa utilizado para descompact&#xE1;-lo, basta verificar a extens&#xE3;o do arquivo. Abaixo segue uma listagem dos programas mais comuns de descompacta&#xE7;&#xE3;o e como utiliza-los:</p>
+<ul>
+<li><code>gzip</code>:  &#xC9; capaz de compactar arquivos para a extens&#xE3;o <code>.gz</code> e descompact&#xE1;-los. Possui uma &#xF3;tima taxa de compacta&#xE7;&#xE3;o e velocidade.<ul>
+<li>Estrutura: <code>gzip</code> <em><code>[op&#xE7;&#xF5;es]</code></em> <em><code>[arquivos]</code></em>.</li>
+<li>Op&#xE7;&#xF5;es:<ul>
+<li><code>-d</code>: Descompacta um arquivo.</li>
+<li><code>-l</code> Lista o conte&#xFA;do de um arquivo <code>.gz</code>.</li>
+<li><code>-r</code>: Compacta diret&#xF3;rios e subdiret&#xF3;rios.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>bzip2</code>:  &#xC9; um novo compactador que vem sendo cada vez mais usado porque consegue atingir a melhor compacta&#xE7;&#xE3;o em arquivos texto se comparado aos j&#xE1; existentes, em consequ&#xEA;ncia sua velocidade de compacta&#xE7;&#xE3;o tamb&#xE9;m &#xE9; menor; quase duas vezes mais lento que o <code>gzip</code>.<ul>
+<li>Estrutura: <code>bzip2</code> <em><code>[op&#xE7;&#xF5;es]</code></em> <em><code>[arquivos]</code></em>.</li>
+<li>Op&#xE7;&#xF5;es:<ul>
+<li><code>-d</code>: Descompacta um arquivo.</li>
+<li><code>-l</code> Lista o conte&#xFA;do de um arquivo <code>.bz2</code>.</li>
+<li><code>-r</code>: Compacta diret&#xF3;rios e subdiret&#xF3;rios.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>zip</code>: Utilit&#xE1;rio de compacta&#xE7;&#xE3;o compat&#xED;vel com arquivos de extens&#xE3;o <code>.zip</code>.<ul>
+<li>Estrutura: <code>zip</code> <em><code>[op&#xE7;&#xF5;es]</code></em> <em><code>[arquivo-destino]</code></em> <em><code>[arquivo-origem]</code></em>.</li>
+<li>Op&#xE7;&#xF5;es:<ul>
+<li><code>-r</code>: Compacta diret&#xF3;rios e subdiret&#xF3;rios.</li>
+<li><code>-e</code>: Permite encriptar o conte&#xFA;do de um arquivo <code>.zip</code> atrav&#xE9;s de senha. A senha ser&#xE1; pedida no momento da compacta&#xE7;&#xE3;o.</li>
+<li><code>-y</code>: Armazena links simb&#xF3;licos no arquivo <code>.zip</code>. Por padr&#xE3;o, os links simb&#xF3;licos s&#xE3;o ignorados durante a compacta&#xE7;&#xE3;o.</li>
+</ul>
+</li>
+<li>Macetes:<ol>
+<li>Para a descompacta&#xE7;&#xE3;o de arquivos <code>.zip</code> no GNU/Linux, &#xE9; necess&#xE1;rio o uso do <code>unzip</code> seguido do nome do arquivo que deseja descompactar.</li>
+</ol>
+</li>
+</ul>
+</li>
+<li><code>rar</code>: &#xC9; um compactador que trabalha com arquivos de extens&#xE3;o <code>.rar</code>.  <ul>
+<li>Estrutura: <code>rar</code> <em><code>[a&#xE7;&#xF5;es]</code></em> <em><code>[op&#xE7;&#xF5;es]</code></em> <em><code>[arquivos]</code></em>.</li>
+<li>A&#xE7;&#xF5;es:<ul>
+<li><code>a</code>: Compacta arquivos.</li>
+<li><code>x</code>: Descompacta arquivos.</li>
+</ul>
+</li>
+<li>Op&#xE7;&#xF5;es:<ul>
+<li><code>p</code>: Inclui senha no arquivo. Cuidado, pessoas conectadas ao sistema operacional podem capturar a linha de comando facilmente e descobrir a senha.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>tar</code>:  N&#xE3;o &#xE9; um compactador, ele apenas junta v&#xE1;rios arquivos em um s&#xF3;.<ul>
+<li>Estrutura: <code>tar</code> <em><code>[op&#xE7;&#xF5;es]</code></em> <em><code>[arquivo-destino]</code></em> <em><code>[arquivo-origem]</code></em>.</li>
+<li>Op&#xE7;&#xF5;es:<ul>
+<li><code>-x</code>: Extrai arquivos <code>.tar</code>.</li>
+<li><code>-t</code>: Lista o conte&#xFA;do de um arquivo <code>.tar</code>.</li>
+<li><code>-c</code>: Cria um novo arquivo <code>.tar</code>.</li>
+</ul>
+</li>
+<li>Macetes:<ol>
+<li>&#xC9; comum encontrar arquivos <code>.tar</code> compactados em um arquivo <code>.gz</code> &#x2014; nesses casos a extens&#xE3;o do arquivo ser&#xE1; <code>.tar.gz</code>. Para descompact&#xE1;-lo basta utilizar a op&#xE7;&#xE3;o <code>-z</code> para chamar o <code>gzip</code>.</li>
+</ol>
+</li>
 </ul>
 </li>
 </ul>
@@ -478,7 +552,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Gerenciamento de arquivos","level":"1.4","depth":1,"next":{"title":"Glossário","level":"1.5","depth":1,"path":"glossario.md","ref":"glossario.md","articles":[]},"previous":{"title":"O shell e o terminal","level":"1.3","depth":1,"path":"o_shell_e_o_terminal.md","ref":"o_shell_e_o_terminal.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-sharing","github","sharing-plus","back-to-top-button","download-pdf-link"],"root":"./pages","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"github":{"url":"https://github.com/GeovanneAtanazio/manual_linux/"},"search":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"sepia","family":"sans","size":2},"highlight":{},"back-to-top-button":{},"download-pdf-link":{"label":"Download PDF","base":"https://github.com/GeovanneAtanazio/manual_linux/blob/main/Manual_GNU_Linux.pdf"},"sharing":{"qq":false,"all":["twitter","linkedin","whatsapp","facebook","messenger"],"douban":false,"facebook":false,"weibo":false,"whatsapp":false,"line":false,"google":false,"qzone":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"apresentacao.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Manual GNU/Linux","language":"pt","gitbook":"*","description":"Manual com o conhecimento institucional de GNU/Linux"},"file":{"path":"gerenciamento_de_arquivos.md","mtime":"2021-07-14T13:10:58.489Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-07-14T13:13:08.696Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Gerenciamento de arquivos","level":"1.4","depth":1,"next":{"title":"Glossário","level":"1.5","depth":1,"path":"glossario.md","ref":"glossario.md","articles":[]},"previous":{"title":"O shell e o terminal","level":"1.3","depth":1,"path":"o_shell_e_o_terminal.md","ref":"o_shell_e_o_terminal.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-sharing","github","sharing-plus","back-to-top-button","download-pdf-link"],"root":"./pages","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"github":{"url":"https://github.com/GeovanneAtanazio/manual_linux/"},"search":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"sepia","family":"sans","size":2},"highlight":{},"back-to-top-button":{},"download-pdf-link":{"label":"Download PDF","base":"https://github.com/GeovanneAtanazio/manual_linux/blob/main/Manual_GNU_Linux.pdf"},"sharing":{"qq":false,"all":["twitter","linkedin","whatsapp","facebook","messenger"],"douban":false,"facebook":false,"weibo":false,"whatsapp":false,"line":false,"google":false,"qzone":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"apresentacao.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Manual GNU/Linux","language":"pt","gitbook":"*","description":"Manual com o conhecimento institucional de GNU/Linux"},"file":{"path":"gerenciamento_de_arquivos.md","mtime":"2021-07-14T13:21:12.064Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-07-15T02:27:18.245Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>

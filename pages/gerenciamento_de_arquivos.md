@@ -54,7 +54,7 @@ O sistema GNU/Linux possui uma estrutura básica de diretórios. Essa estrutura 
 - `/run`: Fornece às aplicações um local para armazenamento de arquivos temporários que, diferentemente dos arquivos armazenados no `/tmp`, em caso de exclusão causam problemas às aplicações que os utilizam.
 - `/sbin`: Reúne arquivos binários acionados pelo sistema em si ou pelo *root* em processos de manutenção.
 - `/srv`: Possui dados que são utilizados por serviços armazenados, como *web servers*.
-- `/sys`: Sistema de arquivos do *kernel*, que facilitar a troca de informações entre os programas que rodam no espaço do *kernel*, como os *drivers*, com os programas que rodam no espaço do usuário — por isso, esse diretório é usado por diversos programas.
+- `/sys`: Sistema de arquivos do *kernel*, que facilita a troca de informações entre os programas que rodam no espaço do *kernel*, como os *drivers*, com os programas que rodam no espaço do usuário — por isso, esse diretório é usado por diversos programas.
 - `/tmp`: Diretório para armazenamento de arquivos temporários criados por programas.
 - `/usr`: Contém a maior parte dos programas. Normalmente acessível somente como leitura.
 - `/var`: Aqui são armazenados logs e arquivos variados que normalmente seriam escritos em `/usr`.

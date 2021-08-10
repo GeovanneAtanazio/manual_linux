@@ -37,6 +37,8 @@ No GNU/Linux não é permitido a existência de dois arquivos com o mesmo nome n
 
 O sistema GNU/Linux possui uma estrutura básica de diretórios. Essa estrutura também é conhecida como Árvore de Diretórios, porque é parecida com uma árvore de cabeça para baixo. Cada diretório do sistema tem seus respectivos arquivos que são armazenados conforme regras definidas pela *Filesystem Hierarchy Standard (FHS)* da seguinte forma:
 
+![arvore_de_diretorios](images/gerenciamento_de_arquivos/arvore_de_diretorios.png)
+
 - `/`: Diretório principal do sistema. Dentro dele estão todos os diretórios do sistema.
 - `/bin`: É reservado para gravar comandos que serão utilizados por todos os usuários.
 - `/boot`: Contém os arquivos necessários para a inicialização do sistema.

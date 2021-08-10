@@ -16,29 +16,14 @@ No GNU/Linux existem três permissões básicas, são selas:
 
 Essas permissões se aplicam ao dono, grupo e outros. Para visualizá-las basta utilizar a opção `-l` do comando `ls` — para mais detalhes desse comando, basta visitar a seção "Controle de Permissões" deste manual. Ao executá-lo, a saída obtida será algo semelhante a isto `-rw-r--r-- root  root  13 May 19 16:01 teste`, onde:
 
-```mermaid
-graph TD
-Permissoes[-rw-r--r--]-->DescricaoPermissoes[Tipo de arquivo e permissões]
-NomeDono[root]-->DescricaoNomeDono[Nome do dono do arquivo]
-NomeGrupo[root]-->DescricaoNomeGrupo[Nome do grupo do arquivo]
-Data[13 May 19 16:01] --> DescricaoData[Data de atualização]
-NomeArquivo[teste] --> DescricaoNomeArquivo[Nome do arquivo]
-```
+![ls-l](images/controle_de_permissoes/ls-l.png)
+
 Para poder ler as informações da primeira sequencia de caracteres — Tipo de arquivo e permissões  —  é preciso saber que: 
 
-```mermaid
-graph TD
-Permissoes[-rw-r--r--]-->PermissoesArquivoCodigo[-]
-PermissoesArquivoCodigo-->TipoDeArquivo[Tipo de arquivo]
-Permissoes-->PermissoesDonoCodigo[rw-]
-PermissoesDonoCodigo--> PermissoesDono[Permissões do dono]
-Permissoes-->PermissoesGrupoCodigo[r--] 
-PermissoesGrupoCodigo--> PermissoesGrupo[Permissões do grupo]
-Permissoes --> PermissoesOutrosCodigo[r--]
-PermissoesOutrosCodigo-->PermissoesOutros[Permissões de outros]
-```
+![permissoes](images/controle_de_permissoes/permissoes.png)
+
 - O primeiro caractere representa o tipo de arquivo. Ele pode ser:
-	 -  `-`: regular;
+	-  `-`: regular;
 	-   `d`: diretório;
 	-   `l`: *link* simbólico;
 	-   `b`: bloco;
@@ -59,47 +44,7 @@ PermissoesOutrosCodigo-->PermissoesOutros[Permissões de outros]
 
 Sabendo disso, já é possível converter as permissões para a notação octal, veja o exemplo:
 
-```mermaid
-graph TD
-PermissoesConvencionais[-rwxrw-r--]
-
-PermissoesConvencionais --> PermissoesArquivoCodigo[-] 
-PermissoesArquivoCodigo --> TipoArquivo[Tipo de arquivo]
-
-PermissoesConvencionais --> PermissoesConvencionaisDono[rwx]
-PermissoesConvencionaisDono --> ConverterLeituraDono[r=4]
-PermissoesConvencionaisDono --> ConverteEscritaDono[w=2]
-PermissoesConvencionaisDono --> ConverterExecucaoDono[x=1]
-
-ConverterLeituraDono --> ConversaoPermissaoDono[4+2+1]
-ConverteEscritaDono --> ConversaoPermissaoDono
-ConverterExecucaoDono --> ConversaoPermissaoDono
-
-PermissoesConvencionais --> PermissoesConvencionaisGrupo[rw-]
-PermissoesConvencionaisGrupo --> ConverterLeituraGrupo[r=4]
-PermissoesConvencionaisGrupo --> ConverteEscritaGrupo[w=2]
-PermissoesConvencionaisGrupo --> ConverterExecucaoGrupo[x=0]
-
-ConverterLeituraGrupo --> ConversaoPermissaoGrupo[4+2+0]
-ConverteEscritaGrupo --> ConversaoPermissaoGrupo
-ConverterExecucaoGrupo --> ConversaoPermissaoGrupo
-
-PermissoesConvencionais --> PermissoesConvencionaisOutros[r--]
-PermissoesConvencionaisOutros --> ConverterLeituraOutros[r=4]
-PermissoesConvencionaisOutros --> ConverteEscritaOutros[w=0]
-PermissoesConvencionaisOutros --> ConverterExecucaoOutros[x=0]
-
-ConverterLeituraOutros --> ConversaoPermissaoOutros[4+0+0]
-ConverteEscritaOutros --> ConversaoPermissaoOutros
-ConverterExecucaoOutros --> ConversaoPermissaoOutros
-
-ConversaoPermissaoDono --> PermissoesOctal[764]
-ConversaoPermissaoGrupo --> PermissoesOctal
-ConversaoPermissaoOutros --> PermissoesOctal
-
-```
-
-
+![conversao_octal](images/controle_de_permissoes/conversao_octal.png)
 
  - Primeiro: divide-se as permissões de usuário, grupo e outros;
  - Segundo: Verificar quais permissões foram dadas para cada perfil e efetuar a conversão;
